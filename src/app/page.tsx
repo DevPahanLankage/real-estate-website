@@ -87,7 +87,7 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-white/90 mb-8"
             >
-              Hi, I'm John Doe. For over a decade, I've been helping families find their perfect homes in Auckland. My approach is simple: honesty, transparency, and a genuine commitment to your success.
+              Hi, I&apos;m John Doe. For over a decade, I&apos;ve been helping families find their perfect homes in Auckland. My approach is simple: honesty, transparency, and a genuine commitment to your success.
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -126,7 +126,7 @@ export default function HomePage() {
                 I hold a Master of Business Administration (MBA) from London Metropolitan University, which has given me the strategic insight to navigate complex property transactions. Now, as a Real Estate Sales Marketing & Consultant, I combine my financial acumen with my passion for property to deliver exceptional results for my clients.
               </p>
               <p className="text-text-dark">
-                What sets me apart is my ability to find tailored solutions that perfectly match your needs. Whether you're buying your first home, upgrading to a larger property, or looking for investment opportunities, I bring the same level of dedication and expertise to every transaction.
+                What sets me apart is my ability to find tailored solutions that perfectly match your needs. Whether you&apos;re buying your first home, upgrading to a larger property, or looking for investment opportunities, I bring the same level of dedication and expertise to every transaction.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div className="space-y-2">
@@ -313,7 +313,7 @@ export default function HomePage() {
                         </div>
                       </div>
                       <blockquote className="text-xl font-medium text-text-dark mb-8">
-                        "{testimonial.quote}"
+                        &quot;{testimonial.quote}&quot;
                       </blockquote>
                       <div className="font-playfair">
                         <cite className="font-bold text-primary block not-italic">
@@ -383,7 +383,7 @@ export default function HomePage() {
               Let's Connect
             </h2>
             <p className="text-text-dark max-w-2xl mx-auto">
-              Ready to start your property journey? I'm here to help you every step of the way.
+              Ready to start your property journey? I&apos;m here to help you every step of the way.
             </p>
           </motion.div>
 
@@ -448,7 +448,7 @@ export default function HomePage() {
               <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-xl font-playfair font-bold text-primary">Contact Details</h3>
-                  <p className="text-text-dark">Feel free to reach out anytime. I'm here to assist you.</p>
+                  <p className="text-text-dark">Feel free to reach out anytime. I&apos;m here to assist you.</p>
                 </div>
                 <div className="space-y-4">
                   <a href="tel:+64123456789" className="flex items-center space-x-4 text-text-dark hover:text-primary transition-colors">
