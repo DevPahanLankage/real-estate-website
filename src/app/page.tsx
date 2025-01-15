@@ -149,13 +149,13 @@ export default function HomePage() {
               transition={{ duration: 0.8 }}
               className="relative h-[600px] bg-secondary rounded-lg overflow-hidden"
             >
-              <Image
+        <Image
                 src="/images/profile.jpg"
                 alt="John Doe - Real Estate Professional"
                 fill
                 className="object-cover object-center"
-                priority
-              />
+          priority
+        />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50" />
               <div className="absolute bottom-6 left-6 right-6 bg-white p-6 rounded-lg shadow-lg backdrop-blur-sm bg-white/90">
                 <h3 className="font-playfair font-bold text-xl mb-2">John Doe</h3>
@@ -380,7 +380,7 @@ export default function HomePage() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-playfair font-bold text-primary mb-4">
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <p className="text-text-dark max-w-2xl mx-auto">
               Ready to start your property journey? I&apos;m here to help you every step of the way.
